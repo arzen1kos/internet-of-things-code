@@ -261,21 +261,21 @@ if __name__ == "__main__":
 Below is the topology workspace used in Packet Tracer.
 
 > **All Iterations**
-![Packet Tracer Workspace: : All Iterations](https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-5.1.1-workspace-topology-iterations.png)
+![Packet Tracer Workspace: : All Iterations](../media/lab-5.1.1-workspace-topology-iterations.png)
 
 
 > **Iteration 5 (Final Iteration)**
-![Packet Tracer Workspace: Iteration 5 (Final Iteration)](https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-5.1.1-workspace-topology-iteration-5.png)
+![Packet Tracer Workspace: Iteration 5 (Final Iteration)](../media/lab-5.1.1-workspace-topology-iteration-5.png)
 
 
 > **Previous Iterations**
-![Packet Tracer Workspace: Iteration 1](https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-5.1.1-workspace-topology-iteration-1.png)
-![Packet Tracer Workspace: Iteration 2](https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-5.1.1-workspace-topology-iteration-2.png)
-![Packet Tracer Workspace: Iteration 3](https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-5.1.1-workspace-topology-iteration-3.png)
+![Packet Tracer Workspace: Iteration 1](../media/lab-5.1.1-workspace-topology-iteration-1.png)
+![Packet Tracer Workspace: Iteration 2](../media/lab-5.1.1-workspace-topology-iteration-2.png)
+![Packet Tracer Workspace: Iteration 3](../media/lab-5.1.1-workspace-topology-iteration-3.png)
 
 ## Demo of the Final Iteration
 Below is the project demo of the temperature sensor and heating system using push button.
-<video src="https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-5.1.1-iteration-5-demo.mp4" controls></video>
+<video src="../media/lab-5.1.1-iteration-5-demo.mp4" controls></video>
 
 
 ## Future Improvements

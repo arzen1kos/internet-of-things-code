@@ -47,7 +47,7 @@ When the toggle button is OFF:
 
 Below is the topology workspace used in Packet Tracer.
 
-![Packet Tracer Workspace](https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-1.2.1-workspace-topology-1.png)
+![Packet Tracer Workspace](../media/lab-1.2.1-workspace-topology-1.png)
 
 ---
 

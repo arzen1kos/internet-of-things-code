@@ -60,8 +60,8 @@ The network includes:
 
 Below is the topology workspace used in Packet Tracer.
 
-![Packet Tracer Workspace: Device Interface Labels](https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-1.1.1-workspace-topology-2.png)
-![Packet Tracer Workspace: Device Configuration Labels](https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-1.1.1-workspace-topology-1.png)
+![Packet Tracer Workspace: Device Interface Labels](../media/lab-1.1.1-workspace-topology-2.png)
+![Packet Tracer Workspace: Device Configuration Labels](../media/lab-1.1.1-workspace-topology-1.png)
 
 
 # Notes

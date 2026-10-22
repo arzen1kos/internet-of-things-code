@@ -150,14 +150,14 @@ This converts analog sensor readings into temperature values in Celsius.
 Below is the topology workspace used in Packet Tracer.
 
 > **Initial State**
-![Packet Tracer Workspace: : Initial State](https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-3.1.2-workspace-topology-1.png)
+![Packet Tracer Workspace: : Initial State](../media/lab-3.1.2-workspace-topology-1.png)
 
 > **Heater Off State**
-![Packet Tracer Workspace: Heater Off State](https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-3.1.2-workspace-topology-2.png)
+![Packet Tracer Workspace: Heater Off State](../media/lab-3.1.2-workspace-topology-2.png)
 
 > **Heater On State**
-![Packet Tracer Workspace: Heater On State](https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-3.1.2-workspace-topology-3.png)
+![Packet Tracer Workspace: Heater On State](../media/lab-3.1.2-workspace-topology-3.png)
 
 ## Demo
 Below is the project demo of the temperature sensor and heating system using push button.
-<video src="https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-3.1.2-demo.mp4" controls></video>
+<video src="../media/lab-3.1.2-demo.mp4" controls></video>

@@ -51,12 +51,12 @@ Led is switched off
 # Packet Tracer Workspace Snapshot
 Below is the topology workspace used in Packet Tracer.
 
-![Packet Tracer Workspace](https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-2.1.1-workspace-topology-1.png)
+![Packet Tracer Workspace](../media/lab-2.1.1-workspace-topology-1.png)
 
 # Demo
 Below is the project demo of the blinking system using push button.
 
-<video src="https://github.com/arzen1kos/internet-of-things-code/tree/docs/media/lab-2.1.1-demo.mp4" controls></video>
+<video src="../media/lab-2.1.1-demo.mp4" controls></video>
 
 ## Notes
 - The script uses add_event_detect() for event-driven button handling.
