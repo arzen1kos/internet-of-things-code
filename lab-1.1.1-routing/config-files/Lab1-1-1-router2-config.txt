@@ -1,0 +1,90 @@
+Building configuration...
+
+Current configuration : 904 bytes
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+service password-encryption
+!
+hostname Router2
+!
+!
+!
+enable secret 5 $1$mERr$YlCkLMcTYWwkF1Ccndtll.
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+!
+!
+!
+license udi pid CISCO1941/K9 sn FTX15240B97-
+!
+!
+!
+!
+!
+!
+!
+!
+!
+no ip domain-lookup
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface GigabitEthernet0/0
+ description LAN
+ ip address 192.168.100.65 255.255.255.224
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ description WAN
+ ip address 192.168.100.122 255.255.255.248
+ duplex auto
+ speed auto
+!
+interface Vlan1
+ description Unused
+ no ip address
+ shutdown
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+!
+banner motd ^CAuthorised staff only^C
+!
+!
+!
+!
+line con 0
+ password 7 0802455D0A16
+ login
+!
+line aux 0
+!
+line vty 0 4
+ password 7 0802455D0A16
+ login
+line vty 5 15
+ password 7 0802455D0A16
+ login
+!
+!
+!
+end
