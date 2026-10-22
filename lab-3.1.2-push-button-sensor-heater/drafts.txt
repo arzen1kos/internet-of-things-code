@@ -1,0 +1,72 @@
+if temp <= 5 C:    
+	
+turn ON heating element
+
+
+
+else: # TEMP > 5c
+turn OFF heating element
+
+
+
+override:
+push button  ---- ON
+
+push button x2 ---- default (temp controlled settings)
+
+
+LCD:
+-Temp
+-Heater status
+
+button = false
+
+
+
+
+
+
+
+
+
+
+
+
+
+call button event()
+
+
+
+
+
+message = 'Temp: {:.1f} {}C\nHeater: {} '.format(your_temperature_object, chr(176), your_heater_state)
+customWrite(LCD_PORT, message)
+
+
+
+
+def main():
+	pinMode(TEMP_SENSOR_PORT,INPUT)
+	pinMode(TEMP_LCD_PORT,OUT)
+	
+	while True:
+		#temp = analogRead(TEMP_SENSOR_PORT)
+		temp = get_temperature()
+		print("Temperature",temp)
+		
+		if (temp>=-220):
+			customWrite(TEMP_LCD_PORT,"HEATER ON")
+		
+		delay(2000)
+	
+def get_temperature():
+    """ """
+    return ((float(analogRead(TEMP_SENSOR_PORT)) / 1024) * 201) - 100
+ 
+ 
+
+
+
+
+
+
